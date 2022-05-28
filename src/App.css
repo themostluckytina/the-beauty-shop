@@ -1,38 +1,293 @@
-.App {
+body{
+  background-color: aliceblue;
+}
+.head{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.tel{
+  color: #b995a5;
+  text-shadow: .5px .5px #614158;
+  font-size: 18px;
+}
+
+nav{
+  background-color:#b995a5;
+  display: flex;
+ 
+  justify-content: space-evenly;
+  margin-top: 13px;
+  padding: 12px;
+  font-size: 14px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.top{
+
+  text-align: center;
+  font-size: 13px;
+}
+h3{
+  font-family: 'Delius Unicase', cursive;
+  text-transform: uppercase;
+  font-size: 45px;
+  margin: 0;
+  color: #7dc4a2;
+  text-shadow: .3px .3px #614158;
+  margin-top: 5px;
+  text-align: center;
+  letter-spacing: -4px;
+}
+span{
+  font-family: 'Delius Unicase', cursive;
+}
+.buy{
+  margin-top: 5px;
+}
+
+.link{
+  font-size: 19px;
+  font-weight: bold;
+ text-decoration: none;
+ color: #fdf6f8;
+ text-shadow: .5px .5px #614158;
+}
+h1{
+ 
+  color: #7dc4a2;
+  text-shadow: .3px .3px #614158;
+ 
+}
+.welcome{
+  margin-left: 200px ;
+  margin-right: 200px ;
+  font-size: 16px;
+  color: #614158;
+  
+}
+.emojis{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
   text-align: center;
 }
+.mail{
+  color: #ff44ae;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.send{
+  background-color:#b995a5;
+  width: 180px;
+  padding: 10px;
+  color: #fdf6f8;
+  text-shadow: .5px .5px #614158;
+  border: none;
+  margin-top: 15px;
+}
+.send:hover{
+  background-color:#ff44ae;
+}
+input{
+  padding: 8px;
+}
+.from{
+  color: #48c388;
+  text-shadow: .3px .3px #614158;
+  font-size: 16px;
+}
+.garanty{
+  color: #360e2b;
+  width: 300px;
+}
+.address{
+  color: #521540;
+  font-size: 15px;
+}
+.discount{
+  color: #fe26a1;
+  
+}
+del{
+  font-size: 17px;
+  
+}
+ins{
+  text-decoration: none;
+  color: #d30f7b;
+  font-size: 17px;
+  font-weight: bold;
+}
+.ins{
+  color: #d30f7b;
+  font-size: 17px;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.line{
+  display: flex;
+  margin-right: 160px;
+  margin-left: 160px;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.colonm{
+  margin:  20px;
+}
+.addtestimonial{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.pen{
+  margin-top: 15px;
+  margin-right: 50px;
+  width: 200px;
+  padding: 8px;
+  background-color:#ff41ad;
+  color: aliceblue;
+  font-size:  15px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);  
+}
+.btnorder{
+  display: flex;
+  justify-content: center;
+}
+.order{
+  width: 190px;
+  margin-top: 25px;
+  padding: 10px;
+  background-color:#ff44ae;
+  color: aliceblue;
+  font-size:  15px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+  font-weight: bold; 
+}
+.score{
+  margin-right: 10px;
+  color: #d30f7b;
+  font-size: 18px;
+}
+.btnScore{
+  background-color:#fa83c6;
+  border: none;
+  border-radius:  5px;
+  padding: 5px;
+  width: 150px;
+  color: #fdf6f8;
+  font-size: 15px;
+}
+.plus{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f1cce7;
+  margin: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  
+}
+.minus{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #b6f5d7;
+  margin: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+button{
+  background-color: white ;
+  border: 3px solid #fe26a1; ;
+  width: 120px;
+  padding: 5px;
+  border-radius: 10px;
+  color: #fe26a1;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+form{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+textarea, select{
+  width: 350px;
+}
+.brend{
+  text-align: center ;
+  color: #614158;
+}
+label{
+  margin-top: 18px;
+  color: #3ec282;
+  font-family: 'Delius Unicase', cursive;
+}
+.yes{
+  display: flex;
+ 
+}
+.no{
+  margin: 20px;
+}
+select{
+  padding: 10px;
+  font-size: 14px;
+  color: #360e2b;
+}
+.yourname{
+  font-size: 22px;
+  color: #614158;
+  
+}
+.input{
+  width: 339px;
+  margin-top: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+
+
+
+@media all and (max-width: 500px){
+  .head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+  .image{
+    width: 350px;
+  }
+  .welcome{
+    margin-left: 20px ;
+  margin-right: 20px ;
+  }
+  .garanty{
+    margin-left: 20px ;
+    margin-right: 20px ;
+  }
+  h3{
+    font-size: 32px ;
+  }
+  .link{
+    font-size: 16px;
+  }
+  .line{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    
   }
 }

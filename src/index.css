@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.block{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+
+}
+.things{
+  margin: 30px;
+  text-align: center;
+}
+.percent{
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+.chooseCategory{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  /*background-color: rgb(176, 243, 221);*/
+  margin-top: 10px;
+}
+/*
+.category{
+  font-size: 13px;
+}*/
+
+.selectedColor{
+  background-color: #bba9b1;
+}
+.color:hover{
+  background-color: #afe7cc;
+}
+.color, .selectedColor{
+  padding: 7px;
+  cursor: pointer;
+}
+.natural{
+  margin-top: 9px;
+}
+
+.call{
+  color: #614158;
+  text-shadow: .3px .3px #614158;
+  font-size: 17px;
+}
+.price{
+  color: #614158;
+  text-shadow: .3px .3px #614158;
+  font-size: 15px;
+}
+.priceCart{
+  display: flex;
+  justify-content: center;
+
+}
+.thing, .itemprice{
+  margin: 10px;
+}
+.itemname{
+  font-size: 17px;
+  color: #382232;
+}
+.itemprice{
+  font-size: 15px;
+  color: #382232;
+  
+
+}
+.dots{
+  width: 175px;
+}
+.cartAmount{
+  color: #614158;
+}
+.icon{
+  border-radius: 50%;
+}
