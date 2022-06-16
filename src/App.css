@@ -140,6 +140,10 @@ ins{
   justify-content: flex-end;
   
 }
+.heading{
+  display: flex;
+  justify-content: flex-end;
+}
 .pen{
   margin-top: 15px;
   margin-right: 50px;
@@ -151,6 +155,12 @@ ins{
   border: none;
   border-radius: 8px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);  
+}
+
+.addpage{
+  text-decoration: none;
+  color: white;
+  
 }
 .btnorder{
   display: flex;
@@ -255,6 +265,46 @@ select{
   margin-top: 5px;
 }
 
+.about{
+  display: flex;
+  margin-left: 50px;
+  margin:  30px;
+}
+.testname{
+  margin:  30px;
+}
+.like{
+  display: flex;
+  margin-left: 180px;
+  margin-top: -50px;
+ 
+}
+
+.fullheart{
+  display: flex;
+
+}
+.heart{
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: aliceblue;
+  
+
+}
+.redheart{
+  margin-top: 11px;
+  margin-left: 8px;
+}
+.five{
+  margin-left: 10px;
+  font-weight: bold;
+}
+.addtest{
+  list-style: none;
+  color: aliceblue;
+  text-decoration: none;
+}
 
 
 

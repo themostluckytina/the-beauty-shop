@@ -14,11 +14,7 @@ import Cart from "./Components/Cart/Cart";
 import MainPageSale from "./Menu/MainPageSale";
 import bw from "./Menu/BW.png"
 import Testimonials from "./Menu/Testimonials";
-
-
-
-
-
+import AddTestimonial from './Testimonials/AddTestimomial'
 
 
 
@@ -56,16 +52,15 @@ function App() {
     <Route path='/cart' element ={<Cart /> } />
     <Route path='/sale' element ={<MainPageSale /> } />
     <Route path='/testimonials' element = {<Testimonials/>} />
-    
+    <Route path='/AddTestimonial' element={ <AddTestimonial />  } />
 
-
-    
-
+   
 
   </Routes>
+  
  
   </Router> 
- ;
+
 
 }
 
